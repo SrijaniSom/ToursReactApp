@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+}
+
+.loading
+{
+   display: flex;
+   flex-direction: column;
+   color:#81817D;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 3px;
+   margin-top: 8rem;
+   font-weight: bolder;
+}
+.whole
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2,.title
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    letter-spacing: 3px;
+    margin-top: 5rem;
+
+
+}
+.underline
+{
+    margin-top: 0.5rem;
+    background-color:#49a6e9 ;
+    height:4px;
+    width:8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.singleTour
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    width:60%;
+   
+}
+.ImageContainer
+{
+    width:100%;
+    margin-bottom: 3rem;
+    min-height:8rem;
+    
+}
+.pic
+{
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.nameOfTour
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color:black;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    
+}
+.PriceOfTour
+{
+    color:#49a6e9;
+    font-size: 17px;
+    margin-top: 4px;
+    background-color:#ebf7ff ;
+    border-radius: 5px;
+    margin-left: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.Description
+{
+    color:gray;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.readmore
+{
+    color:#49a6e9;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.readmore:hover
+{
+    cursor: pointer;
+}
+button{
+    color:#bb2525;
+    font-size:15px;
+    text-transform: uppercase;
+    padding: 0.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:#bb2525 solid 3px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.singleTour
+{
+    border-radius: 4px;
+    background-color: white;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+html{
+  background-color: #f1f5f8;  
+}
